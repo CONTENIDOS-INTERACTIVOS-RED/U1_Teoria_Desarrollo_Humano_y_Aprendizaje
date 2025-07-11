@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '2',
-    tituloUnidad: 'Estudio de la relación con el medio',
+    numeroUnidad: '1',
+    tituloUnidad: 'Estudio de las etapas del desarrollo del pensamiento',
   },
   menuPrincipal: {
     menu: [

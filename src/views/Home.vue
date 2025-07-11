@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los primeros meses de vida, los niños y las niñas desarrollan vínculos afectivos y sociales que impactan profundamente su manera de aprender y relacionarse con el mundo. En esta unidad, se exploran dos enfoques fundamentales: la teoría del aprendizaje social de Albert Bandura, que destaca la importancia de la observación e imitación en la conducta, y la teoría del apego de John Bowlby, que resalta el papel de los vínculos tempranos con cuidadores en el desarrollo emocional y cognitivo.
+              p.descripcion.mb-4 Desde el nacimiento hasta la adultez, el ser humano atraviesa una serie de transformaciones que impactan su manera de pensar, aprender y relacionarse con el mundo. En esta unidad, se estudian las principales teorías que explican cómo se desarrollan las capacidades cognitivas, sociales y morales en la infancia, con base en los aportes de autores como Piaget, Vygotsky y Kohlberg. Comprender estos enfoques resulta esencial para aplicar estrategias pedagógicas pertinentes que respondan a las necesidades del desarrollo infantil en diversos contextos educativos.
               
-              p #[b ¡Prepárese para explorar cómo el afecto y la observación, moldean el aprendizaje humano desde la primera infancia!]
+              p #[b ¡Prepárese para conocer los fundamentos que transforman el aprendizaje desde la infancia!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
