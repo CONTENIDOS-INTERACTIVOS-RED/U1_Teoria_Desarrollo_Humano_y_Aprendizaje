@@ -7,7 +7,7 @@
         .col-lg-8
           p(data-aos="fade-left").mb-4 Lev Semyonovich Vygotski, fue un sociólogo que generó aportes a la psicología del desarrollo y la neuropsicología; es considerado el fundador de la psicología histórico-cultural. Dentro de sus conclusiones, afirmó que la comunidad y el lenguaje juegan un papel central en el aprendizaje. 
       
-          .bg-color-1.p-4(data-aos="fade-left").mb-4
+          .bg-color-4.p-4(data-aos="fade-left").mb-4
             .row.align-items-start
               .col-lg-auto
                 img(src="@/assets/curso/tema2/1.svg", style="max-width: 90px").mx-auto
@@ -27,7 +27,7 @@
           figure
             img(src="@/assets/curso/tema2/3.png", data-aos="zoom-in")
         .col-lg-8
-          .bg-color-2.p-4(data-aos="fade-left").mb-4
+          .bg-color-1.p-4(data-aos="fade-left").mb-4
             p.mb-0 Según Carrera y Mazzarella (2001), uno de los aportes más significativos de Vygotsky es la relación que establece entre el pensamiento y el lenguaje. Aunque desde la genética, la expresión de estas dos cualidades son distintas y provienen de un origen genómico distinto, en la infancia hay un momento ambas cualidades convergen y entonces el pensamiento se torna verbal y el lenguaje racional.
       
           p(data-aos="fade-left").mb-4 Desde el ámbito de la interacción social, el niño y la niña deben o desean expresar su experiencia, por tanto, se les hace necesario y útil construir un sistema como si se tratara de un “prototipo” del lenguaje. De allí que la experiencia de la primera infancia tiene elementos simbólicos que utilizan los infantes para entender y comunicar los procesos sociales. Esa creación de signos, tiene un método y requiere el procesamiento de información (creación y uso).
@@ -42,7 +42,7 @@
 
           .row.mb-4
             .col-lg-8
-              .bg-color-1.px-4.py-5(data-aos="fade-left").mb-4
+              .bg-color-2.px-4.py-5(data-aos="fade-left").mb-4
                 p.mb-0 Dentro de las cualidades de esa interacción, se encuentra la relevancia del mentor, que usualmente es un adulto o cuidador, que guía al niño o la niña, en su proceso de acercamiento con el mundo o zona de desarrollo próximo, que describe la diferencia entre lo que un infante puede hacer sin ayuda y lo que no puede hacer. La mediación para Vygostski es una forma de cooperación para el aprendizaje que conduce a la construcción de conocimientos.
               
               p(data-aos="fade-left") De acuerdo con la teoría, los humanos nacen con cuatro funciones elementales: 
@@ -157,7 +157,7 @@
 
       p.mb-4 Entendiendo la postura de que el aprendizaje tiene un componente clave de interacción en un entorno social y promueve un aprendizaje colaborativo y mediado por el lenguaje, a continuación, se detallan algunas estrategias que pueden ser aplicadas en los contextos educativos, escolares o familiares:
 
-      .bg-full-width.bg-fondo-slider.mb-5
+      .bg-full-width.bg-fondo-slider.mb-0
         .p-4.p-md-5
           SlyderA(tipo="b").bg-white
             .row.align-items-center.p-4.p-md-5
@@ -187,7 +187,26 @@
       
 
 
-      
+      .bg-full-width.border-top.color-primario
+        .p-4.p-md-5
+          h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+          .row.material-complementario
+            .col-12.col-md-6.col-lg-7
+              p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://redined.educacion.gob.es/xmlui/handle/11162/150986" target="_blank" rel="noopener noreferrer") Gutiérrez, M. (2018). Estilos de aprendizaje, estrategias para enseñar: su relación con el desarrollo emocional y "aprender a aprender". Tendencias pedagógicas, 31, 83-96.
+
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=fHdQWmbhfdE" target="_blank" rel="noopener noreferrer") SPROUTS Español. (2021). La Teoría del Desarrollo Cognitivo a Través de las Relaciones Sociales de Vygotsky [video]. YouTube. 
+              
+
+            .col-12.col-md-6.col-lg-3.offset-lg-1
+              figure
+                img(src='@/assets/componentes/material-complementario.svg', alt='')
       
 
 

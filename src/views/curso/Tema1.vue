@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Título tema'")
+  BannerInterno(:subTitulo="'1. Desarrollo cognoscitivo desde Jean Piaget'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.mb-5
@@ -222,15 +222,16 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/15545" target="_blank" rel="noopener noreferrer") COLEGIO OFICIAL DE PSICÓLOGOS DE MADRID. (2003). Piaget y el desarrollo cognitivo. Ed. Colegio Oficial de la Psicología de Madrid. 
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=yYFhPO5pArc" target="_blank" rel="noopener noreferrer") SPROUTS Español. (2021). La Teoría del Desarrollo Cognitivo de Piaget [video]. YouTube.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=sqszwMrVJsk" target="_blank" rel="noopener noreferrer") SPROUTS Español. (2024). Esquema de Piaget: Acomodación y Asimilación de Nueva Información [video]. YouTube
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

@@ -15,14 +15,33 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Teoría del aprendizaje social',
+        titulo: 'Desarrollo cognoscitivo desde Jean Piaget',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Fases del aprendizaje social observacional o vicario',
+            titulo: 'Inteligencia operativa e inteligencia figurativa',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Asimilación y acomodación',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Características de la teoría de desarrollo cognitivo',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo:
+              '¿Qué aplicaciones se pueden hacer de la teoría de Piaget, a los contextos actuales de la primera infancia?',
+            hash: 't_1_4',
           },
         ],
       },
@@ -30,38 +49,54 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'La teoría del apego de John Bowlby',
+        titulo: 'Perspectiva socio cultural Vygostski',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Liberadores sociales',
+            titulo: 'Pensamiento y lenguaje',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'La monotropía y la afectación del apego en el desarrollo ',
+            titulo: 'Zona de desarrollo próximo',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Desarrollo del vínculo del apego',
+            titulo: 'La interacción social ',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Categorías de apego - Mary Ainsworth',
+            titulo:
+              '¿Qué aplicaciones se pueden hacer de la teoría de Vygotsky a los contextos actuales de la primera infancia?',
             hash: 't_2_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Desarrollo moral Kohlberg',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'El círculo ético',
+            hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Alteraciones por apego desorganizado',
-            hash: 't_2_5',
+            numero: '3.2',
+            titulo: 'Niveles y estadíos del desarrollo moral de Kohlberg',
+            hash: 't_3_2',
           },
         ],
       },
@@ -103,107 +138,102 @@ export default {
   referencias: [
     {
       referencia:
-        'König, K. (2021). Los tres primeros años del niño: adquisición del andar erguido aprendizaje del habla despertar del pensar. Editorial Antroposófica. ',
+        'Inhelder, B. & Piaget, J. (1969. 18ª ed 2015). Psicología del Niño. Ediciones Morata, S. L.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/116205',
+    },
+    {
+      referencia:
+        'FAU, M. E. (2011). Jean Piaget: clásicos resumidos. La Bisagra.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/76826',
+    },
+    {
+      referencia:
+        'González, D. et al. (2011). El concepto zona de desarrollo próximo y su manifestación en la educación médica superior cubana. Educación Médica Superior, 25(4).',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/196980?page=64.',
+        'http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S0864-21412011000400013#::text=La%20zona%20de%20desarrollo%20pr%C3%B3ximo.todos%20los%20niveles%20de%20ense%C3%B1anza',
     },
     {
       referencia:
-        'Torres, A. (2025). Aprendizaje observacional: definición, fases y usos. Portal Psicología y Mente.  ',
-      link: 'https://psicologiaymente.com/psicologia/aprendizaje-observacional',
+        'Carrera, B. & Mazzarella, C. (2001). Vygotsky: enfoque sociocultural. Educere, 5(13), 41-44.',
+      link: 'https://www.redalyc.org/pdf/356/35601309.pdf',
     },
     {
       referencia:
-        'Holmes, J. (2009). Teoría del apego y psicoterapia: en busca de la base segura. Editorial Desclée de Brouwer.  ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/47885',
-    },
-    {
-      referencia:
-        'Serrano, P. (2019). La integración sensorial en el desarrollo y aprendizaje infantil. Narcea Ediciones.',
+        'Barra Almagía, E. (1987). El desarrollo moral: una introducción a la teoría de Kohlberg. Revista Latinoamericana de Psicología, 19(1), 7-18. Fundación Universitaria Konrad Lorenz.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/113159?page=82. ',
+        'https://psiceldesarrollos1.wordpress.com/wp-content/uploads/2019/03/desarrollo-moral-1.pdf',
     },
     {
       referencia:
-        'Pellón Suárez de Puga, R. (2015). Psicología del aprendizaje. UNED - Universidad Nacional de Educación a Distancia.  ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/48751',
-    },
-    {
-      referencia:
-        'Comeche Moreno, M. I. & Vallejo Pareja, M. Á. (2015). Manual de terapia de conducta en la infancia (2a ed.). Dykinson. ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/56777',
-    },
-    {
-      referencia:
-        'Ardila, R. (s.f.). El mundo de la psicología. Los orígenes del conductismo, Watson y el manifiesto conductista de 1913. Revista latinoamericana de Psicología.  ',
-      link: 'http://www.scielo.org.co/pdf/rlps/v45n2/v45n2a14.pdf',
-    },
-    {
-      referencia:
-        'Pérez Rodríguez, P. (2006). Revisión de las teorías del aprendizaje más sobresalientes del siglo XX. Red Tiempo de Educar.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/23728',
-    },
-    {
-      referencia:
-        'Lizaso Elgarresta, I., Acha Morcillo, J. & Arruabarrena, L. R. (2018). Desarrollo biológico y cognitivo en el ciclo vital. Difusora Larousse - Ediciones Pirámide. ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/123058',
+        'Carbonero, C. (2017). Crecimiento y desarrollo del niño. Wanceulen Editorial.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/63447',
     },
   ],
   glosario: [
     {
-      termino: 'Aprendizaje adquirido',
+      termino: 'Aprendizaje',
       significado:
-        'Se refiere al conocimiento, habilidades, competencias, actitudes o valores que una persona incorpora a través de la experiencia, el estudio, la instrucción, la observación o la práctica.',
+        'Proceso mediante el cual se origina o se modifica una actividad respondiendo a una situación, siempre que los cambios no puedan ser atribuidos al crecimiento o al estado temporal del organismo. Es un proceso dinámico que involucra sistemas cognitivos, afectivos y expresivos, y se desarrolla en un contexto social y cultural.',
     },
     {
-      termino: 'Aprendizaje vicario',
+      termino: 'Círculo ético',
       significado:
-        'También conocido como aprendizaje observacional, modelado o aprendizaje social, es un proceso en el que los individuos aprenden al observar las acciones y experiencias de los demás.',
+        'El concepto de círculo ético puede estar relacionado con dos ideas principales: el círculo de seguridad en el contexto familiar y el círculo moral en el ámbito filosófico.',
     },
     {
-      termino: 'Apego',
+      termino: 'Círculo moral',
       significado:
-        'Es un vínculo afectivo intenso y duradero, que se desarrolla entre dos individuos, singularmente entre un niño y sus padres o cuidadores.',
+        'Es un concepto filosófico que se refiere a la frontera imaginaria que trazamos entre quienes consideramos dignos de consideración moral y aquellos que no. Este círculo ha ido expandiéndose a lo largo de la historia para incluir a más entidades, como todos los seres humanos y, en algunos casos, animales y otros seres sintientes. La expansión del círculo moral implica que más entidades reciben consideración moral.',
     },
     {
-      termino: 'Atención',
+      termino: 'Círculo de seguridad',
       significado:
-        'Es un proceso conductual y cognitivo de concentración selectiva en un aspecto discreto de la información, ya sea considerada subjetiva u objetiva, mientras que se ignoran otros aspectos perceptibles.',
+        'En el contexto familiar, un círculo de seguridad se refiere a un entorno donde todos los miembros se sienten apoyados y protegidos. Este círculo promueve valores como la honestidad, la confianza y la integridad, creando un ambiente donde las acciones éticas son valoradas y practicadas. En este sentido, vivir éticamente significa actuar de manera que beneficie a todos los miembros del círculo, dado que el bienestar de uno, es el bienestar de todos.',
     },
     {
-      termino: 'Imitación',
+      termino: 'Conciencia moral',
       significado:
-        'Hace referencia a la acción que se realiza, intentando copiar otra o tomándola como ejemplo.',
+        'Es una capacidad fundamental del ser humano que le permite evaluar sus acciones y decisiones en términos de moralidad. Se trata de una "voz interior" que guía hacia lo correcto y lo incorrecto, basándose en principios morales adquiridos a través de la educación, la cultura y la reflexión personal.',
+    },
+    {
+      termino: 'Desarrollo cognitivo',
+      significado:
+        'Es un proceso complejo que abarca la evolución de las capacidades mentales del ser humano, desde el nacimiento hasta la adultez. Este proceso incluye la construcción de habilidades como la percepción, la atención, la memoria, el lenguaje, el pensamiento y la resolución de problemas.',
+    },
+    {
+      termino: 'Desarrollo humano',
+      significado:
+        'Concepto que abarca el crecimiento y mejora de las capacidades de las personas a lo largo de su vida. Este proceso se centra en ampliar las opciones y oportunidades de los individuos, mejorando su calidad de vida y promoviendo la igualdad y la justicia social.',
+    },
+    {
+      termino: 'Desarrollo moral',
+      significado:
+        'Proceso que abarca el surgimiento, cambio y comprensión de la moralidad, desde la infancia hasta la edad adulta. Este proceso está influenciado por experiencias y comportamientos individuales, al enfrentar cuestiones morales durante diferentes etapas de desarrollo físico y cognitivo.',
+    },
+    {
+      termino: 'Juicios morales',
+      significado:
+        'Son evaluaciones que las personas realizan sobre conductas o situaciones para determinar si son correctas o incorrectas, desde un punto de vista ético. Estos juicios se basan en los valores y principios morales de una sociedad o cultura y son subjetivos, puesto que pueden variar de una persona a otra, dependiendo de sus creencias y contexto cultural.',
+    },
+    {
+      termino: 'Interacción social',
+      significado:
+        'Es el proceso fundamental mediante el cual las personas se relacionan entre sí, intercambian información, emociones y comportamientos, y se influyen mutuamente. Este fenómeno es crucial para el desarrollo humano, la formación de relaciones y la construcción de la sociedad.',
     },
     {
       termino: 'Mediación',
       significado:
-        'Proceso intencionado que incluye métodos, técnicas, y actividades que se utilizan en el contexto educativo, para promover el aprendizaje, fomentando la construcción de conocimientos y el desarrollo de habilidades.',
+        'Formas de cooperación esenciales para el aprendizaje, en el sentido de que las ayudas que se reciban pueden conducir la forma en que se logre el conocimiento.',
     },
     {
-      termino: 'Memoria',
+      termino: 'Primera infancia',
       significado:
-        'Es la capacidad de almacenar, codificar y recuperar información. Es una función cerebral que nos permite aprender y adaptarnos a nuestro entorno.',
+        'Es un período crucial en el desarrollo de los niños. Dentro de los aspectos del desarrollo: biológico, psicológico, cultural y social.',
     },
     {
-      termino: 'Modelo de funcionamiento interno',
+      termino: 'Zona de desarrollo próximo (ZDP)',
       significado:
-        'Estructura cognitiva que vincula las representaciones mentales que hace el niño en sus primeras etapas y que le permiten comprender el entorno, su Yo y la relación con los demás.',
-    },
-    {
-      termino: 'Monotropía',
-      significado:
-        'El apego en el bebé se ancla sobre una única figura o figura principal, a modo de vínculo primario y más relevante, por encima de otros parientes o cuidadores.',
-    },
-    {
-      termino: 'Motivación',
-      significado:
-        'Conjunto de factores, tanto internos (necesidades, deseos, expectativas) como externos (recompensas, reconocimiento), que incitan a una persona a realizar una acción y a persistir en ella, hasta alcanzar un objetivo.',
-    },
-    {
-      termino: 'Privación materna',
-      significado:
-        'Se refiere a la separación o pérdida de la madre y la generación de problemas en el desarrollo del apego y, a futuro, dificultades asociadas con lo cognitivo, social y emocional.',
+        'Concepto de la psicología educativa que describe la diferencia entre lo que una persona puede hacer sin ayuda y lo que no puede hacer.',
     },
   ],
 }
